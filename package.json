@@ -1,0 +1,21 @@
+{
+  "name": "redux-handle-actions",
+  "description": "Redux middleware for handling actions.",
+  "repository": "git://github.com/joshrtay/redux-handle-actions.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "make build",
+    "postpublish": "make clean",
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@f/bind-middleware": "^1.1.1",
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "tape": "^4.2.2"
+  }
+}
