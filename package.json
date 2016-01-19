@@ -2,7 +2,7 @@
   "name": "redux-handle-actions",
   "description": "Redux middleware for handling actions.",
   "repository": "git://github.com/joshrtay/redux-handle-actions.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
